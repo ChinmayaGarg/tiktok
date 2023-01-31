@@ -6,7 +6,7 @@ export default {
     {
       name: 'postedBy',
       title: 'Posted By',
-      type: 'string',
+      type: 'postedBy',
     },
     {
       name: 'comment',

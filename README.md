@@ -36,3 +36,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Sanity not recognizable
+
+sanity start
+sanity init
+Commands might not work in CLI for some users. Following link contains the workaround for the issue.
+[StackOverflow Solution to start Sanity studio](https://stackoverflow.com/questions/67031964/error-when-i-try-to-execute-sanity-start-after-success-with-sanity-init):
+npx @sanity/cli init
+npx @sanity/cli start
