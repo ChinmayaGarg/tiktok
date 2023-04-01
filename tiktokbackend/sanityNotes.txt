@@ -1,0 +1,22 @@
+https://www.sanity.io/docs/schema-types
+schemas folder:
+This folder contains the schema of the data.
+
+fields: The fields key of schema is to tell what fields to show. This takes in array.
+
+"type:'reference'": This means it is going to connect 2 different documents. With type as reference,
+another key i.e. "to" is important which tells us -> connect to what/reference to what.
+Eg: Schema of postedBy - This will refer to "user". 
+    Sanity checks all schemas with "name" key having "user".
+			export default {
+				name: 'postedBy',
+				title: 'Posted By',
+				type: 'reference',
+				to: [{type: 'user'}],
+			}
+
+"type:'array'": Similarly when we give type as array, we need to specify array of what?
+				Hence "of" key is mandatory when type:array is declared.
+
+------------------------------------------------------------------------------------------------------
+
