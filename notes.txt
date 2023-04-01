@@ -5,3 +5,5 @@ Instructions at: https://www.sanity.io/docs/getting-started-with-sanity-cli
 3. If 2nd point fails stating sanity not recognised than run "npm install -g @sanity/cli"
 4. Run point 2 
 
+"sanity start": This command will check the configuration files and compile sanity studio with all of the new schemas.
+
