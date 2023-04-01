@@ -1,0 +1,7 @@
+/*Starting sanity server and/or initializing the sanity project*/
+Instructions at: https://www.sanity.io/docs/getting-started-with-sanity-cli
+1. Go to folder tiktokbackend from command line.
+2. Run "sanity start"
+3. If 2nd point fails stating sanity not recognised than run "npm install -g @sanity/cli"
+4. Run point 2 
+
