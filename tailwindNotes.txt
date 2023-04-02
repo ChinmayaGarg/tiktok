@@ -1,0 +1,59 @@
+https://www.freecodecamp.org/news/get-started-with-tailwindcss/
+tailwind refresher
+
+Eg:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+h1 {
+  color: purple;
+}
+
+@tailwind is not a valid CSS syntax. But, tailwind uses these directives (as they are called) to generate the built CSS. 
+h1 will also be added to the stylesheet as-is.
+
+-------------------------------------------------------------------------------------------------------
+
+Installation:
+https://tailwindcss.com/docs/guides/nextjs
+
+-------------------------------------------------------------------------------------------------------
+
+https://tailwindcss.com/docs/functions-and-directives
+https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
+"@tailwind"'s "@" comes from at-rules for CSS that instructs CSS how to behave.
+Use the @tailwind directive to insert Tailwind’s base, components, utilities and variants styles into your CSS.
+
+1. @tailwind base;
+This injects Tailwind's base styles and any base styles registered by plugins.
+
+2. @tailwind components;
+This injects Tailwind's component classes and any component classes registered by plugins.
+
+3.@tailwind utilities;
+This injects Tailwind's utility classes and any utility classes registered by plugins.
+
+4. @tailwind variants;
+Use this directive to control where Tailwind injects the hover, focus,
+responsive, dark mode, and other variants of each class.
+If omitted, Tailwind will append these classes to the very end of your stylesheet by default.
+
+Read in links:
+@layer
+@apply
+@config
+
+--------------------------------------------------------------------------------------------------------------------
+https://tailwindcss.com/docs/configuration
+How to configure the tailwing using tailwind.config,js?
+Because, Tailwind is a framework for building bespoke user interfaces, 
+it has been designed from the ground up with customization in mind.
+
+By default, Tailwind will look for an optional tailwind.config.js file 
+at the root of your project where you can define any customizations.
+
+Content:
+The content section is where you configure the paths to all of your HTML templates, JS components, and any other files that contain Tailwind class names.
+
+Theme:
+https://tailwindcss.com/docs/theme
